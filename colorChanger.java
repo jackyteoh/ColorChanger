@@ -1,4 +1,4 @@
-package colorchanger;
+package ColorChanger;
 import java.awt.*;
 import javax.swing.*;
 import java.util.*;
@@ -38,6 +38,8 @@ public class ColorChanger {
             button = new JButton("Button " + (i+1));
             button.setBackground(randomColor);
             button.setOpaque(true);
+            button.setBorderPainted(false);
+            button.setContentAreaFilled(true);
             button.addActionListener(new ButtonListener());
             vob.add(button);
         }
