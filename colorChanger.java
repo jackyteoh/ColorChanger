@@ -1,10 +1,10 @@
-package ColorChanger;
+package colorChanger;
 import java.awt.*;
 import javax.swing.*;
 import java.util.*;
 import java.awt.event.*;
 
-public class ColorChanger {
+public class colorChanger {
     static JButton button;
 
     // 4x2 grid
